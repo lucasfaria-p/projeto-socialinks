@@ -67,6 +67,11 @@ section {
     position: relative;
 }
 
+.links div:hover {
+    background-color: hsl(75, 94%, 57%);
+    transition: .3s;
+}
+
 .links a {
     color: white;
     text-decoration: none;
@@ -78,3 +83,8 @@ section {
 
     transform: translate(-50%, -50%);
 }
+
+.links a:hover {
+    color: hsl(0, 0%, 8%);
+}
+
