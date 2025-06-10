@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Inter";
+    src: url('fonts/Inter-VariableFont_slnt\,wght.ttf') format(truetype);
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+    main {
+        width: 375px;
+        height: 650px;
+    }
+
+    .apresentacao img {
+        width: 120px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    main {
+        width: 700px;
+        height: 680px;
+    }
+
+    .apresentacao img {
+        width: 140px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        width: 900px;
+        height: 690px;
+    }
+
+    .apresentacao img {
+        width: 150px;
+    }
+}

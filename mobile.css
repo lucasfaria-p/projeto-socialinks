@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Inter";
+    src: url('fonts/Inter-VariableFont_slnt\,wght.ttf') format(truetype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  hsl(0, 0%, 8%);
+    width: 98vw;
+    height: 100vh;
+    font-family: "Inter";
+}
+
+main {
+    width: 320px;
+    height: 630px;
+    background-color: hsl(0, 0%, 12%);
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+section {
+    text-align: center;
+}
+
+.apresentacao img {
+    width: 100px;
+    margin: 25px 0px;
+    border-radius: 50%;
+}
+
+.apresentacao h2 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+}
+
+.apresentacao .cidade {
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.apresentacao p strong {
+    color: hsl(75, 94%, 57%);
+}
+
+.apresentacao p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+.links div {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
